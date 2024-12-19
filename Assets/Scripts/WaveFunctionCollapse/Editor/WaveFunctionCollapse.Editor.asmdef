@@ -1,0 +1,16 @@
+{
+    "name": "WaveFunctionCollapse.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b34417eff642c844083f19495b6f5f59"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

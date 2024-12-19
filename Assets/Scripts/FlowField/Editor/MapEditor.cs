@@ -6,14 +6,14 @@ using System.Linq;
 
 public class MapEditor
 {
-    [MenuItem("Tools/FlowField/CreateMap")]
+    [MenuItem("FlowField/CreateMap")]
     private static void CreateMap()
     {
         var map = GameObject.FindObjectOfType<MapGenerator>();
         map.MakeMap();
     }
 
-    [MenuItem("Tools/FlowField/ClearMap")]
+    [MenuItem("FlowField/ClearMap")]
     private static void ClearMap()
     {
         var map = GameObject.FindObjectOfType<MapGenerator>();
@@ -23,7 +23,7 @@ public class MapEditor
         }
     }
 
-    [MenuItem("Tools/FlowField/MarkAsObstacle")]
+    [MenuItem("FlowField/MarkAsObstacle")]
     private static void MarkAsObstacle()
     {
         var objs = Selection.gameObjects;
@@ -44,7 +44,7 @@ public class MapEditor
         });
     }
 
-    [MenuItem("Tools/FlowField/MarkAsNormal")]
+    [MenuItem("FlowField/MarkAsNormal")]
     private static void MarkAsNormal()
     {
         var objs = Selection.gameObjects;
@@ -65,7 +65,7 @@ public class MapEditor
     }
 
 
-    [MenuItem("Tools/FlowField/MarkAsEnd")]
+    [MenuItem("FlowField/MarkAsEnd")]
     private static void MarkAsEnd()
     {
         var objs = Selection.gameObjects;
