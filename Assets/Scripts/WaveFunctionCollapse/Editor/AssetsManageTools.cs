@@ -28,21 +28,30 @@ namespace WaveFunctionCollapse
             var obj = Selection.activeGameObject;
             var count = obj.transform.childCount;
 
-            var assetsContent = Resources.Load<AssetsContent>("WaveFunctionCollapse/AssetsContent");
-            assetsContent.assetsContentDatas = new();
+            var asset = AssetDatabase.LoadAssetAtPath<AssetsContent>("Assets/Resources/WaveFunctionCollapse/AssetsContent.asset");
+
+            var so = new SerializedObject(asset);
+            var datas = so.FindProperty("assetsContentDatas");
+
             for (int i = 0; i < count; i++)
             {
                 var objName = obj.transform.GetChild(i).name;
-                var assetsContentData = new AssetsContentData
+                datas.InsertArrayElementAtIndex(i);
+                // datas.
+                var data = datas.GetArrayElementAtIndex(i);
+                data.FindPropertyRelative("name").stringValue = objName;
+                data.FindPropertyRelative("orignialAssetRef").objectReferenceValue = AssetDatabase.LoadAssetAtPath<GameObject>($"{AssetDatapathPrefix}{objName}{AssetDatapathSuffix}");
+                data.FindPropertyRelative("index").intValue = i;
+
+                var adjacentDataLists = data.FindPropertyRelative("adjacentDataLists");
+                adjacentDataLists.ClearArray();
+                for (int j = 0; j < 6; j++)
                 {
-                    index = i,
-                    name = obj.transform.GetChild(i).name,
-                    orignialAssetRef = AssetDatabase.LoadAssetAtPath<GameObject>($"{AssetDatapathPrefix}{objName}{AssetDatapathSuffix}"),
-                    adjacents = new() { -1, -1, -1, -1, -1, -1 },
-                    adjacentsOffset = new() { Vector3.zero, Vector3.zero, Vector3.zero, Vector3.zero, Vector3.zero, Vector3.zero }
-                };
-                assetsContent.assetsContentDatas.Add(assetsContentData);
+                    adjacentDataLists.InsertArrayElementAtIndex(j);
+                }
             }
+            so.ApplyModifiedProperties();
+            AssetDatabase.SaveAssets();
         }
     }
 }

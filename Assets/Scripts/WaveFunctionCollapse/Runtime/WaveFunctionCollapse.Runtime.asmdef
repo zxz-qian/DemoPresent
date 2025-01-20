@@ -2,7 +2,8 @@
     "name": "WaveFunctionCollapse.Runtime",
     "rootNamespace": "",
     "references": [
-        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:2a2c1a6b15a3b744db9b25b8e492b8c8"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

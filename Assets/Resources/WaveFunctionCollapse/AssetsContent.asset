@@ -12,4 +12,764 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050c9562e7c37974ab53aad35b9073bc, type: 3}
   m_Name: AssetsContent
   m_EditorClassIdentifier: 
-  assetsContentDatas: []
+  assetsContentDatas:
+  - name: bridge-draw
+    orignialAssetRef: {fileID: 919132149155446097, guid: 137d724282859a9448f482115b9beeba, type: 3}
+    index: 0
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: bridge-straight-pillar
+    orignialAssetRef: {fileID: 919132149155446097, guid: d563d1931c76f8146bf67d7c49e564b8, type: 3}
+    index: 1
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: bridge-straight
+    orignialAssetRef: {fileID: 919132149155446097, guid: ff00b1f42c0461f4686375d68f1bece6, type: 3}
+    index: 2
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: door
+    orignialAssetRef: {fileID: 919132149155446097, guid: 8c19503330afa6c43b47a1cc41c29bba, type: 3}
+    index: 3
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: flag-banner-long
+    orignialAssetRef: {fileID: 919132149155446097, guid: 07929dd24f8380c4f89035b8b1f3c592, type: 3}
+    index: 4
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: flag-banner-short
+    orignialAssetRef: {fileID: 919132149155446097, guid: b251ffd60c876b14597601bcf7eb848e, type: 3}
+    index: 5
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: flag-pennant
+    orignialAssetRef: {fileID: 919132149155446097, guid: 4ee9318d9cdc5624ba180ddb979401d7, type: 3}
+    index: 6
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: flag-wide
+    orignialAssetRef: {fileID: 919132149155446097, guid: 28c357a177803034ca0df486b9569d3c, type: 3}
+    index: 7
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: flag
+    orignialAssetRef: {fileID: 919132149155446097, guid: 8de326e6a40933144802c0bfccbd2af6, type: 3}
+    index: 8
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: gate
+    orignialAssetRef: {fileID: 919132149155446097, guid: e101f070491908641b2bd5b1ebb2ef61, type: 3}
+    index: 9
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: ground-hills
+    orignialAssetRef: {fileID: 919132149155446097, guid: 72d7d174c62505d46a163327e273e423, type: 3}
+    index: 10
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: ground
+    orignialAssetRef: {fileID: 919132149155446097, guid: e53e3ebd504427647b6c52caa260e5ea, type: 3}
+    index: 11
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: metal-gate
+    orignialAssetRef: {fileID: 919132149155446097, guid: 31976c86b3429694e83400d0c1391fa7, type: 3}
+    index: 12
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: rocks-large
+    orignialAssetRef: {fileID: 919132149155446097, guid: 544a531a515d32a47b040b956a8fcc4b, type: 3}
+    index: 13
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: rocks-small
+    orignialAssetRef: {fileID: 919132149155446097, guid: 91704b6558a3bbd48940a0806718734c, type: 3}
+    index: 14
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-ballista-demolished
+    orignialAssetRef: {fileID: 919132149155446097, guid: c6fc31aa18cc50d4ea8e06ee3db9f9f0, type: 3}
+    index: 15
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-ballista
+    orignialAssetRef: {fileID: 919132149155446097, guid: e52120bc3daddda448084f255b70fd8f, type: 3}
+    index: 16
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-catapult-demolished
+    orignialAssetRef: {fileID: 919132149155446097, guid: 0632c20a34fdaf444bd2ec228a9ec104, type: 3}
+    index: 17
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-catapult
+    orignialAssetRef: {fileID: 919132149155446097, guid: 0a53635c2431e0f41a1a8478e502d087, type: 3}
+    index: 18
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-ram-demolished
+    orignialAssetRef: {fileID: 919132149155446097, guid: 4c3c21443a8384746837a4088b1ded9f, type: 3}
+    index: 19
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-ram
+    orignialAssetRef: {fileID: 919132149155446097, guid: 6c804c5b3e0885a4f9966d3334559123, type: 3}
+    index: 20
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-tower-demolished
+    orignialAssetRef: {fileID: 919132149155446097, guid: 2f1622c7a6eb48a438370907209a66c7, type: 3}
+    index: 21
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-tower
+    orignialAssetRef: {fileID: 919132149155446097, guid: a58742071de887645ac3d1165f1c1895, type: 3}
+    index: 22
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-trebuchet-demolished
+    orignialAssetRef: {fileID: 919132149155446097, guid: 7a1f521fb7fd32d4592ce057f627eb62, type: 3}
+    index: 23
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: siege-trebuchet
+    orignialAssetRef: {fileID: 919132149155446097, guid: 8a5579dad77b1cd4b8275c444cfb4f13, type: 3}
+    index: 24
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: stairs-stone-square
+    orignialAssetRef: {fileID: 919132149155446097, guid: 118027d05c0b6ae4bb924ae9527660c9, type: 3}
+    index: 25
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: stairs-stone
+    orignialAssetRef: {fileID: 919132149155446097, guid: 5ea872bef98001646a1599315dc4f6d4, type: 3}
+    index: 26
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-base
+    orignialAssetRef: {fileID: 919132149155446097, guid: 63fca549225989b4cbf0527e305d9f9a, type: 3}
+    index: 27
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-hexagon-base
+    orignialAssetRef: {fileID: 919132149155446097, guid: 8d28d8cf08aac66409cde2eb0383a9a1, type: 3}
+    index: 28
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-hexagon-mid
+    orignialAssetRef: {fileID: 919132149155446097, guid: ae880795271df0e418846d1e975560f7, type: 3}
+    index: 29
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-hexagon-roof-secondary
+    orignialAssetRef: {fileID: 919132149155446097, guid: 829a9fb88a74f2544b364cf38bae4544, type: 3}
+    index: 30
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-hexagon-roof
+    orignialAssetRef: {fileID: 919132149155446097, guid: c1956769583e10e4aa7ba95dcb74e614, type: 3}
+    index: 31
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-hexagon-top-wood
+    orignialAssetRef: {fileID: 919132149155446097, guid: 535d72ae44d4891408dac18bde735210, type: 3}
+    index: 32
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-hexagon-top
+    orignialAssetRef: {fileID: 919132149155446097, guid: f9d31f039eeaa0a4697f8e1040afe9c0, type: 3}
+    index: 33
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-slant-roof
+    orignialAssetRef: {fileID: 919132149155446097, guid: bfe242f530450e044abad5d7b26f60ae, type: 3}
+    index: 34
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-arch
+    orignialAssetRef: {fileID: 919132149155446097, guid: 81221cce714da6e46b7a7bdd86258941, type: 3}
+    index: 35
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-base-border
+    orignialAssetRef: {fileID: 919132149155446097, guid: bf0d9ab645553cb4c9249896ab0f88f7, type: 3}
+    index: 36
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-base-color
+    orignialAssetRef: {fileID: 919132149155446097, guid: 3a60759c557b59f48ad1a59d6fb476ad, type: 3}
+    index: 37
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-base
+    orignialAssetRef: {fileID: 919132149155446097, guid: 1b45e2fdb8ff6bd4e8602b7da3dd60c2, type: 3}
+    index: 38
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-mid-color
+    orignialAssetRef: {fileID: 919132149155446097, guid: 14b140bbe5674f2479ce1d5280c92a9b, type: 3}
+    index: 39
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-mid-door
+    orignialAssetRef: {fileID: 919132149155446097, guid: abedb9b510ea6ea4d91e1d639dfe6a8d, type: 3}
+    index: 40
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-mid-open-simple
+    orignialAssetRef: {fileID: 919132149155446097, guid: 506f4cfe70540eb478fe896139274a3a, type: 3}
+    index: 41
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-mid-open
+    orignialAssetRef: {fileID: 919132149155446097, guid: 4dd9c39698b80e44ba23300e9cef868c, type: 3}
+    index: 42
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-mid-windows
+    orignialAssetRef: {fileID: 919132149155446097, guid: b650f8bc6a1b35942917930e702e3511, type: 3}
+    index: 43
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-mid
+    orignialAssetRef: {fileID: 919132149155446097, guid: a7141209fdaa8eb40b3f3415804bf0b3, type: 3}
+    index: 44
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-roof
+    orignialAssetRef: {fileID: 919132149155446097, guid: 6a1a443c5c620ec49bcfb0ccc1215b31, type: 3}
+    index: 45
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-top-color
+    orignialAssetRef: {fileID: 919132149155446097, guid: e3a8cd93166ad5744b2fd65c43e68653, type: 3}
+    index: 46
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-top-roof-high-windows
+    orignialAssetRef: {fileID: 919132149155446097, guid: c64d411bf1bdd1741a2a5baf26b0052c, type: 3}
+    index: 47
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-top-roof-high
+    orignialAssetRef: {fileID: 919132149155446097, guid: d4e3d04c059d2fa4f8117dbcc9d5f652, type: 3}
+    index: 48
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-top-roof-rounded
+    orignialAssetRef: {fileID: 919132149155446097, guid: c72c5f170a6527f49be2ebbfab2f3f20, type: 3}
+    index: 49
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-top-roof
+    orignialAssetRef: {fileID: 919132149155446097, guid: ab93cc0de6341264a9272c8a5928d1e9, type: 3}
+    index: 50
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square-top
+    orignialAssetRef: {fileID: 919132149155446097, guid: e61b32fe7880acd4888fe24e457065cf, type: 3}
+    index: 51
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-square
+    orignialAssetRef: {fileID: 919132149155446097, guid: 9178fad55c148014c9f75240f010eeb5, type: 3}
+    index: 52
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tower-top
+    orignialAssetRef: {fileID: 919132149155446097, guid: e1521f204557d374883951f563507d54, type: 3}
+    index: 53
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tree-large
+    orignialAssetRef: {fileID: 919132149155446097, guid: 34c77ef01bfd02c44abcb8b7d026703c, type: 3}
+    index: 54
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tree-log
+    orignialAssetRef: {fileID: 919132149155446097, guid: 0c1494c934449f44bae8de24937b0cb1, type: 3}
+    index: 55
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tree-small
+    orignialAssetRef: {fileID: 919132149155446097, guid: c2df32127d523554f968c243fa4257bd, type: 3}
+    index: 56
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: tree-trunk
+    orignialAssetRef: {fileID: 919132149155446097, guid: ea3de042dc17c294cb03b7800ea8d493, type: 3}
+    index: 57
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-corner-half-tower
+    orignialAssetRef: {fileID: 919132149155446097, guid: 4e41c659685aa9741b8953dec710aa27, type: 3}
+    index: 58
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-corner-half
+    orignialAssetRef: {fileID: 919132149155446097, guid: 63590d11d816b634c9987500325fb612, type: 3}
+    index: 59
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-corner-slant
+    orignialAssetRef: {fileID: 919132149155446097, guid: 0bff6aaa962f862438c26331d9727f3d, type: 3}
+    index: 60
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-corner
+    orignialAssetRef: {fileID: 919132149155446097, guid: 5fe6f6708bcaee74f9d9137e1482bec6, type: 3}
+    index: 61
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-doorway
+    orignialAssetRef: {fileID: 919132149155446097, guid: 1ff95a3d727f0c34ea4ab46503cc1ed6, type: 3}
+    index: 62
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-half-modular
+    orignialAssetRef: {fileID: 919132149155446097, guid: 5775cd756c1e0c94cb309e0f6eb4746b, type: 3}
+    index: 63
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-half
+    orignialAssetRef: {fileID: 919132149155446097, guid: c6a0e8b27ae079d4f9c373f345bbf1b6, type: 3}
+    index: 64
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-narrow-corner
+    orignialAssetRef: {fileID: 919132149155446097, guid: 305a8c98ecbb94c4e89c7ed686609cc4, type: 3}
+    index: 65
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-narrow-gate
+    orignialAssetRef: {fileID: 919132149155446097, guid: d8cd86744d876e7479108bbc0962b020, type: 3}
+    index: 66
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-narrow-stairs-rail
+    orignialAssetRef: {fileID: 919132149155446097, guid: 3edd9a2badb9deb48ace3992da58e8d8, type: 3}
+    index: 67
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-narrow-stairs
+    orignialAssetRef: {fileID: 919132149155446097, guid: ccf725c0b49968c4686912d17e7ebed3, type: 3}
+    index: 68
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-narrow-wood-fence
+    orignialAssetRef: {fileID: 919132149155446097, guid: 2bf2931a4b756bc4ea63a827e4254491, type: 3}
+    index: 69
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-narrow-wood
+    orignialAssetRef: {fileID: 919132149155446097, guid: 5be9393602a022348805e0e91c9846e0, type: 3}
+    index: 70
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-narrow
+    orignialAssetRef: {fileID: 919132149155446097, guid: 21399d3c15b3bfd4dac4bfacabf5f58b, type: 3}
+    index: 71
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-pillar
+    orignialAssetRef: {fileID: 919132149155446097, guid: 2928ad56159f3024b9c5baff6223a65b, type: 3}
+    index: 72
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-stud
+    orignialAssetRef: {fileID: 919132149155446097, guid: 28171c41e5014154292777ced930ecfb, type: 3}
+    index: 73
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall-to-narrow
+    orignialAssetRef: {fileID: 919132149155446097, guid: 9e7718c53457ea248bc1c94d5f7937ae, type: 3}
+    index: 74
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+  - name: wall
+    orignialAssetRef: {fileID: 919132149155446097, guid: ff8e17bd940c58949b6f76d2e4735fb8, type: 3}
+    index: 75
+    adjacentDataLists:
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []
+    - datas: []

@@ -2,7 +2,8 @@
     "name": "WaveFunctionCollapse.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:b34417eff642c844083f19495b6f5f59"
+        "GUID:b34417eff642c844083f19495b6f5f59",
+        "GUID:2a2c1a6b15a3b744db9b25b8e492b8c8"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
